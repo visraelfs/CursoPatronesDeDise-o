@@ -1,0 +1,6 @@
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\Tools\bin\Debug\Tools.dll
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\Tools\bin\Debug\Tools.pdb
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\Tools\obj\Debug\Tools.dll
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\Tools\obj\Debug\Tools.pdb

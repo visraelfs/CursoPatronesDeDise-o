@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\CursoPatronesDeDiseño\obj\Debug\CursoPatronesDeDiseño.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\CursoPatronesDeDiseño\obj\Debug\CursoPatronesDeDiseño.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\CursoPatronesDeDiseño\bin\Debug\CursoPatronesDeDiseño.exe.config
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\CursoPatronesDeDiseño\bin\Debug\CursoPatronesDeDiseño.exe
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\CursoPatronesDeDiseño\bin\Debug\CursoPatronesDeDiseño.pdb
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\CursoPatronesDeDiseño\obj\Debug\CursoPatronesDeDiseño.exe
+C:\Users\USUARIO\Documents\Repositorios Personales\CursoPatronesDeDiseño\CursoPatronesDeDiseño\obj\Debug\CursoPatronesDeDiseño.pdb
