@@ -7,7 +7,9 @@ using PatronesDeDiseñoASP.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Threading.Tasks;
+using Tools.Ganancias;
 
 namespace PatronesDeDiseñoASP
 {
@@ -28,6 +30,11 @@ namespace PatronesDeDiseñoASP
             //Dentro de <MyConfig> Esta la clase que creamos en la carpeta Configuration
             //Configuration.GetSection("MyConfig"), el "MyConfig, es el que se agrego en el json appsettings.json"
             services.Configure<MyConfig>(Configuration.GetSection("MyConfig"));
+
+            //Inyección de Dependecias
+            services.AddTransient((factory) => new FactoryGananciaLocal(Configuration.GetSection("MyConfig").GetValue<decimal>("PorcentajeLocal")));
+
+            services.AddTransient((factory) => new FactoryGananciaExtranjera(Configuration.GetSection("MyConfig").GetValue<decimal>("PorcentajeExtranjero"), Configuration.GetSection("MyConfig").GetValue<decimal>("Extra")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

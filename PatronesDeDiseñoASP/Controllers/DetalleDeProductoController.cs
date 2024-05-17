@@ -5,16 +5,26 @@ namespace PatronesDeDiseñoASP.Controllers
 {
     public class DetalleDeProductoController : Controller
     {
+
+        private FactoryGanancia _factoryGananciaLocal;
+        private FactoryGanancia _factoryGananciaExtranjera;
+
+        public DetalleDeProductoController(FactoryGananciaLocal factoryGananciaLocal, FactoryGananciaExtranjera factoryGananciaExtranjera)
+        {
+            _factoryGananciaLocal = factoryGananciaLocal;
+            _factoryGananciaExtranjera = factoryGananciaExtranjera;
+        }
+
         public IActionResult Index(decimal total)
         {
 
             //Fabricas
-            FactoryGananciaLocal fGananciaLocal = new FactoryGananciaLocal(0.20m);
-            FactoryGananciaExtranjera fGananciaExtranjera = new FactoryGananciaExtranjera(0.30m, 20);
+            
+            //FactoryGananciaExtranjera fGananciaExtranjera = new FactoryGananciaExtranjera(0.30m, 20);
 
             //Productos
-            var gananciaLocal = fGananciaLocal.GetGanancia();
-            var gananciaExtranjera = fGananciaExtranjera.GetGanancia();
+            var gananciaLocal = _factoryGananciaLocal.GetGanancia();
+            var gananciaExtranjera = _factoryGananciaExtranjera.GetGanancia();
 
             ViewBag.totalLocal = total + gananciaLocal.Ganancia(total);
             ViewBag.totalExtranhera = total + gananciaExtranjera.Ganancia(total);
